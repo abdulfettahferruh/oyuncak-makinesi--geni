@@ -1,0 +1,45 @@
+start 
+     get
+     store a
+     get 
+     store b
+     get 
+     store c
+     load a
+     ifneg hatalıüçgen
+     ifzero hatalıüçgen
+     load b
+     ifneg hatalıüçgen
+     ifzero hatalıüçgen
+     load c
+     ifneg hatalıüçgen
+     ifzero hatalıüçgen
+     load a
+     add b
+     sub c
+     ifneg hatalıüçgen
+     ifzero hatalıüçgen
+     load b
+     add c
+     sub a
+     ifneg hatalıüçgen
+     ifzero hatalıüçgen 
+     load c
+     add a
+     sub b
+     ifneg hatalıüçgen
+     ifzero hatalıüçgen
+     load bir
+     print
+     stop
+hatalıüçgen 
+     load sifir
+     print
+     stop
+
+sifir 0  
+bir 1
+a 0
+b 0
+c 0
+    
